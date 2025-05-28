@@ -1,0 +1,48 @@
+.availability-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.tables-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.table-section {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  background-color: #fafafa;
+}
+
+.slots-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.slot {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.slot.available {
+  border-left: 5px solid green;
+}
+
+.slot.unavailable {
+  border-left: 5px solid red;
+}
+
+button {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
