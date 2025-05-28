@@ -1,0 +1,26 @@
+.reservation-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.reservation-container h2 {
+  margin-bottom: 20px;
+}
+
+.reservation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.reservation-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  background-color: #f9f9f9;
+}
+
+.reservation-card h3 {
+  margin: 0 0 10px 0;
+}
